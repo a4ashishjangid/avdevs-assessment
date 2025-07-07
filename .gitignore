@@ -1,0 +1,43 @@
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore log files
+*.log
+
+# Ignore environment and config files (edit as needed)
+.env
+config/database.php
+
+# Ignore uploads and user files
+uploads/
+
+# Ignore node_modules or vendor if used
+node_modules/
+vendor/
+
+# Ignore composer lock (if PHP Composer used)
+composer.lock
+
+# Ignore npm debug logs
+npm-debug.log*
+
+# Ignore coverage reports
+coverage/
+
+# Ignore test output
+/test-output/
+
+# Ignore backup files
+*~
+*.bak
+*.tmp
+
+# Ignore any sensitive files you add
+secrets.json
