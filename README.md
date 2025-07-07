@@ -49,16 +49,10 @@ A simple PHP and MySQL-based web application for user registration, authenticati
    - The `.gitignore` is set to exclude sensitive files and uploads.
 
 ## Project Structure
-- `index.php` — Main dashboard (was `dashboard.php`)
+- `index.php` — Main dashboard
 - `register.php` — User registration
 - `login.php`, `logout.php` — Authentication
 - `classes/` — Core PHP classes (User, FileUpload)
 - `config/database.php` — Database connection and helpers
 - `assets/js/common.js` — Client-side validation
-- `uploads/` — User-uploaded files (gitignored)
-
-## License
-MIT or your choice
-
----
-For questions or contributions, open an issue or PR!
+- `uploads/` — User-uploaded files
